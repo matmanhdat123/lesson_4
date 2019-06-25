@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:background="@drawable/background"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <ImageButton
+            android:layout_width="@dimen/image_arrow"
+            android:layout_height="@dimen/image_arrow"
+            android:src="@mipmap/arrow_left"
+            android:background="@color/transparent"
+            android:layout_marginTop="@dimen/image_arrow_marginTop"
+            android:layout_marginLeft="@dimen/image_arrow_marginLeft"
+    />
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    <TextView
+            android:layout_width="@dimen/screen_new_width"
+            android:layout_height="wrap_content"
+            android:text="@string/screen_new_account"
+            android:layout_marginLeft="@dimen/screen_new_marginLeft"
+            android:layout_marginTop="@dimen/screen_new_marginTop"
+            android:textColor="@color/white"
+            android:textSize="@dimen/screen_new_size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+            android:layout_width="@dimen/screen_steps_width"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="@string/screen_steps"
+            android:textSize="@dimen/screen_steps_size"
+            android:layout_marginTop="@dimen/screen_steps_marginTop"
+
+    />
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <ImageView
+                android:layout_width="@dimen/image_logo"
+                android:layout_height="@dimen/image_logo"
+                android:src="@mipmap/logo"
+                android:layout_marginLeft="@dimen/image_logo_marginLeft"/>
+        <TextView
+                android:layout_width="@dimen/screen_upload_width"
+                android:layout_height="wrap_content"
+                android:text="@string/screen_upload"
+                android:layout_marginTop="@dimen/screen_upload_marginTop"
+                android:textColor="@color/white"/>
+
+    </LinearLayout>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/screen_name"
+            android:textColor="@color/white"
+            android:layout_marginLeft="@dimen/screen_name_user_marginLeft"/>
+    <EditText
+            android:layout_width="@dimen/screen_sign_up_width"
+            android:textColor="@color/yellow"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/screen_sign_up_marginHorizontal"
+            android:text="@string/screen_sign_up_name"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/screen_user"
+            android:textColor="@color/white"
+            android:layout_marginLeft="@dimen/screen_name_user_marginLeft"/>
+    <EditText
+            android:layout_width="@dimen/screen_sign_up_width"
+            android:textColor="@color/yellow"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/screen_sign_up_marginHorizontal"
+            android:text="@string/screen_sign_up_user"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/screen_username_in_use"
+            android:textColor="@color/pink"
+            android:layout_marginHorizontal="@dimen/screen_username_in_use_Horizontal"/>
+    <Button
+            android:layout_width="@dimen/button_next_width"
+            android:layout_height="@dimen/button_next_height"
+            android:textSize="@dimen/button_next_size"
+            android:background="@drawable/contour"
+            android:text="@string/button_next"
+            android:textColor="@color/white"
+            android:layout_marginHorizontal="@dimen/button_next_marginHorizontal"
+            android:layout_marginTop="@dimen/button_next_marginTop"/>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/screen_login"
+                android:textColor="@color/white"
+                android:layout_marginLeft="@dimen/screen_login_marginLeft"
+                android:layout_marginTop="@dimen/screen_login_marginTop"
+        />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/button_login"
+                android:textColor="@color/stone"
+                android:layout_marginTop="@dimen/button_login_marginTop"
+
+
+        />
+
+    </LinearLayout>
+
+
+</LinearLayout>
